@@ -21,7 +21,7 @@ app.use(cors());
 
 
 
-const CONNECTION_URL = 'mongodb+srv://chandu1:Tdkf4B4P7U7B6Ak3@cluster0.c47rhqs.mongodb.net/?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://<username>:<password>3@cluster0.c47rhqs.mongodb.net/?retryWrites=true&w=majority'
 
 const PORT = process.env.PORT || 5000;
 
